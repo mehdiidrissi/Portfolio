@@ -1,0 +1,32 @@
+
+.navbar-lewagon {
+  justify-content: space-between;
+  background: black;
+  height: 6rem;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+#typed {
+  color: white;
+  font-size: 6rem;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+  padding: 150px 0;
+  height: calc(100vh-6rem);
+}
+
