@@ -1,7 +1,7 @@
 
 .navbar-lewagon {
   justify-content: space-between;
-  background: black;
+  background: #262626;
   height: 6rem;
 }
 
@@ -18,7 +18,7 @@
 }
 
 #typed {
-  color: white;
+  color: #45A29E;
   font-size: 6rem;
 }
 
