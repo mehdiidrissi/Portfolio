@@ -1,8 +1,9 @@
 
 .navbar-lewagon {
   justify-content: space-between;
-  background: #262626;
+  background-color: #262626;
   height: 6rem;
+  border-bottom: 3px solid #45A29E;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -25,8 +26,8 @@
 .banner {
   background-size: cover;
   background-position: center;
-  background-color: black;
+  background-color: #262626;
   padding: 150px 0;
-  height: calc(100vh-6rem);
+  min-height: 90vh;
 }
 
