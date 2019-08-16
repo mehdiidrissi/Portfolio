@@ -2,7 +2,7 @@
 .navbar-lewagon {
   justify-content: space-between;
   background-color: #262626;
-  height: 6rem;
+  height: 4.5rem;
   border-bottom: 3px solid gray;
 }
 
@@ -20,7 +20,19 @@
 
 #typed {
   color: white;
+  font-size: 32px;
+}
+
+.container{
+  margin-left: auto;
+  margin-right: auto;
+}
+.container h1{
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
   font-size: 5rem;
+  line-height: 90px;
 }
 
 
@@ -36,10 +48,135 @@
   min-height: 90vh;
 }
 
-.banner-drive{
+.scroll-down {
+  position: absolute;
+  left: 50%;
+  bottom: 40px;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  z-index: 100;
+  text-decoration: none;
+  text-shadow: 0;
+  width: 25px;
+  height: 25px;
+  border-bottom: 3px solid #fff;
+  border-right: 3px solid #fff;
+  z-index: 9;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%) rotate(45deg);
+  -moz-transform: translate(-50%, 0%) rotate(45deg);
+  transform: translate(-50%, 0%) rotate(45deg);
+  -webkit-animation: fade_move_down 4s ease-in-out infinite;
+  -moz-animation:    fade_move_down 4s ease-in-out infinite;
+  animation:         fade_move_down 4s ease-in-out infinite;
+}
+
+/*.banner-2 {
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/mural1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 150px 0;
+  min-height: 20vh;
+}*/
+
+
+.container-drive{
+  background-color: #262626;
+}
+.cover {
+  margin-top: 50px;
+  margin-bottom: 15px;
+  object-fit: cover;
+  width: 100%;
+  height: 250px;
+  text-align: center;
+ }
+ .centered {
+  position: fill-p
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+.card {
+ border: none;
+ background-color: transparent;
+ font-family: $body-font;
+}
+
+.card-body {
+ padding: 1.5rem 0;
+}
+
+.card-text {
+ color: white;
+ font-size: $font-text;
+}
+
+.card-img-top {
+ height: 12rem;
+ object-fit: cover;
+ border-radius: 2px;
+}
+
+.card-link {
+   color: $hazelnut !important;
+   font-size: 0.75rem;
+   text-decoration: none;
+}
+
+h3{
+ color: $hazelnut;
+ font-weight: bold;
+ font-size: 1.5rem;
+ width: 100%;
+ text-align: center;
+ padding: 0.5rem;
+ }
+
+.card-image-left img {
+  height: 250px;
+  width: auto;
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+
+/*.card {
+  background-color: #262626 !important;
+  border: 0px !important;
+}
+.card-body{
+  border-width: 0px;
+}
+
+.container-cards{
+  padding-top: 15px;
+  background-color: #262626;
+}
+
+.card-group {
+  justify-content: center;
+}
+
+.card-text {
+  color: white;
+}
+.card-title{
+  color: white;
+}
+
+*/
+
+
+  /*banner-drive{
   position: absolute;
   width: 1372px;
-  height: 203px;
+  height: 30vh;
   left: 34px;
   top: 850px;
   background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(images/drive.jpg);
@@ -53,14 +190,16 @@
 
 .container-drive{
   width: 100%;
-  height: 900px;
+  height: 30vh;
   background-color: #262626;
 }
 .experience-cards{
   display: flex;
   flex-direction: row;
+
 }
 
 .card-img-top{
   height: 300px;
 }
+*/
