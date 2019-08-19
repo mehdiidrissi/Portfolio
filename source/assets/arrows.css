@@ -1,0 +1,77 @@
+.scroll-down {
+  position: absolute;
+  left: 50%;
+  bottom: 40px;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  width: 25px;
+  height: 25px;
+  border-bottom: 3px solid #fff;
+  border-right: 3px solid #fff;
+  -webkit-transform: translate(-50%, 0%) rotate(45deg);
+  -moz-transform: translate(-50%, 0%) rotate(45deg);
+  transform: translate(-50%, 0%) rotate(45deg);
+}
+
+.scroll-down-1 {
+  position: absolute;
+  left: 50%;
+  bottom: -745px;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  width: 25px;
+  height: 25px;
+  border-bottom: 3px solid #fff;
+  border-right: 3px solid #fff;
+  -webkit-transform: translate(-50%, 0%) rotate(45deg);
+  -moz-transform: translate(-50%, 0%) rotate(45deg);
+  transform: translate(-50%, 0%) rotate(45deg);
+}
+
+.scroll-down-2 {
+  position: absolute;
+  left: 50%;
+  bottom: -1530px;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  width: 25px;
+  height: 25px;
+  border-bottom: 3px solid #fff;
+  border-right: 3px solid #fff;
+  -webkit-transform: translate(-50%, 0%) rotate(45deg);
+  -moz-transform: translate(-50%, 0%) rotate(45deg);
+  transform: translate(-50%, 0%) rotate(45deg);
+}
+.scroll-down-3 {
+  position: absolute;
+  left: 50%;
+  bottom: -2350px;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  width: 25px;
+  height: 25px;
+  border-bottom: 3px solid #fff;
+  border-right: 3px solid #fff;
+  -webkit-transform: translate(-50%, 0%) rotate(45deg);
+  -moz-transform: translate(-50%, 0%) rotate(45deg);
+  transform: translate(-50%, 0%) rotate(45deg);
+}
+.scroll-down-4 {
+  position: absolute;
+  left: 50%;
+  bottom: -3220px;
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  width: 25px;
+  height: 25px;
+  border-bottom: 3px solid #fff;
+  border-right: 3px solid #fff;
+  -webkit-transform: translate(-50%, 0%) rotate(45deg);
+  -moz-transform: translate(-50%, 0%) rotate(45deg);
+  transform: translate(-50%, 0%) rotate(45deg);
+}
