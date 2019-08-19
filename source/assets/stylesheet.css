@@ -97,6 +97,7 @@ body {
 
 .page-seperation{
   border-top: 1px solid rgba(255,255,255.1);
+  margin-bottom: 0px !important;
 }
 .container-drive{
   height: 200px;
@@ -229,68 +230,67 @@ width: 200px;
   margin-left: 10rem !important;
 }
 
+.chorouk{
+  opacity: 0.9;
+}
+
 .card-title{
   color: #45A29E;
 }
 
 .reach{
   font-size: 48px;
+  color: #45A29E !important;
+  font-weight: bold;
 }
 .reach-out-title{
   padding: 0px !important;
 }
 .reach-out-card{
-  width: 300px;
-}
-/*.card {
-  background-color: #262626 !important;
-  border: 0px !important;
-}
-.card-body{
-  border-width: 0px;
-}
-
-
-
-.card-group {
-  justify-content: center;
-}
-
-.card-text {
-  color: white;
-}
-
-
-*/
-
-
-  /*banner-drive{
-  position: absolute;
-  width: 1372px;
-  height: 30vh;
-  left: 34px;
-  top: 850px;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(images/drive.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.banner-drive h1{
+  width: 350px;
+  height: 500px !important;
   text-align: center;
+  color: white;
+  font-weight: bold;
 }
 
-.container-drive{
-  width: 100%;
-  height: 30vh;
-  background-color: #262626;
-}
-.experience-cards{
-  display: flex;
-  flex-direction: row;
-
+.name{
+  font-size: 28px !important;
 }
 
-.card-img-top{
-  height: 300px;
+.details {
+  margin-top: 10px;
 }
-*/
+.social-media{
+  list-style: none;
+  width: 300px !important;
+}
+
+.social-media a {
+    font-weight: 700;
+    display: block;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    padding: 8px 0px;
+    text-decoration: none;
+  }
+
+.LI{
+  background-color: #1769ff;
+  margin: 20px;
+}
+
+.GH{
+  background-color: #da3737;
+  margin: 20px;
+}
+
+.FB{
+  background-color: white;
+  margin: 20px;
+}
+.CV{
+  text-align: center;
+  background-color: #45A29E;
+  height: 50px;
+}
