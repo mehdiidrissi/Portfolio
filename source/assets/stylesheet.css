@@ -83,8 +83,8 @@ body {
   width: 1300px;
   background-size: cover;
   background-position: center;
-  margin-left: 65px;
-  margin-right: 50px;
+ /* margin-left: 65px;
+  margin-right: 50px;*/
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
@@ -94,6 +94,7 @@ body {
   margin-top: 80px;
   margin-bottom: 0px !important;
   color: white;
+  text-align: center;
 }
 .cover {
   margin-top: 50px;
