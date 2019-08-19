@@ -208,8 +208,14 @@ width: 200px;
   margin-left: 8rem !important;
 }
 
+.chorouk-card{
+  margin-left: 10px;
+  margin-right: 10px;
+}
 .chorouk{
   opacity: 0.9;
+   -webkit-filter: grayscale(100%);
+  filter: grayscale(10%);
 }
 
 .card-title{
