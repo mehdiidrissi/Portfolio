@@ -47,7 +47,17 @@
   padding: 150px 0;
   min-height: 90vh;
 }
-
+.banner-1 {
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/contact.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 150px 0;
+  min-height: 90vh;
+}
 .scroll-down {
   position: absolute;
   left: 50%;
@@ -67,9 +77,6 @@
   -webkit-transform: translate(-50%, 0%) rotate(45deg);
   -moz-transform: translate(-50%, 0%) rotate(45deg);
   transform: translate(-50%, 0%) rotate(45deg);
-  -webkit-animation: fade_move_down 4s ease-in-out infinite;
-  -moz-animation:    fade_move_down 4s ease-in-out infinite;
-  animation:         fade_move_down 4s ease-in-out infinite;
 }
 
 /*.banner-2 {
@@ -84,9 +91,29 @@
   min-height: 20vh;
 }*/
 
+body {
+  background-color: #262626 !important;
+}
 
+.page-seperation{
+  border-top: 1px solid rgba(255,255,255.1);
+}
 .container-drive{
-  background-color: #262626;
+  height: 200px;
+  width: 1300px;
+  background-size: cover;
+  background-position: center;
+  margin-left: 65px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: inline-block;
+}
+.container-drive h2{
+  margin-top: 80px;
+  margin-bottom: 0px !important;
+  color: white;
 }
 .cover {
   margin-top: 50px;
@@ -103,14 +130,20 @@
   transform: translate(-50%, -50%);
   color: black;
 }
-.card {
- border: none;
- background-color: transparent;
+.card{
+ border: none !important;
+ background-color: #262626;
  font-family: $body-font;
+ margin-top: 10px;
+ margin-bottom: 50px;
+ height: 400px !important;
+
 }
 
 .card-body {
  padding: 1.5rem 0;
+ background-color: #262626;
+ text-align: center
 }
 
 .card-text {
@@ -119,25 +152,11 @@
 }
 
 .card-img-top {
- height: 12rem;
+ height: 20rem;
  object-fit: cover;
- border-radius: 2px;
 }
 
-.card-link {
-   color: $hazelnut !important;
-   font-size: 0.75rem;
-   text-decoration: none;
-}
 
-h3{
- color: $hazelnut;
- font-weight: bold;
- font-size: 1.5rem;
- width: 100%;
- text-align: center;
- padding: 0.5rem;
- }
 
 .card-image-left img {
   height: 250px;
@@ -146,6 +165,51 @@ h3{
   margin-left: 5rem;
 }
 
+.container-black{
+  background-color: #262626 !important;
+}
+.container-cards{
+  padding-top: 15px;
+  background-color: #262626;
+}
+.card-title{
+  color: white;
+  font-style: bold;
+  font-size: 25px;
+}
+
+.contact-info p{
+  color:white;
+  font-style: bold;
+  text-align: left;
+
+}
+
+.card p{
+  text-align: center;
+  font-size: 18px;
+}
+
+.card-second-banner{
+  height: 150px !important;
+}
+
+.mcgill{
+height: 200px;
+width: 200px;
+}
+
+.desautels{
+  height: 100px !important;
+  width: 250px !important;
+}
+.fit{
+  height: 120px !important;
+  width: 120px !important;
+  margin-left: 10rem !important;
+  margin-right: 8rem !important;
+
+}
 /*.card {
   background-color: #262626 !important;
   border: 0px !important;
@@ -154,10 +218,7 @@ h3{
   border-width: 0px;
 }
 
-.container-cards{
-  padding-top: 15px;
-  background-color: #262626;
-}
+
 
 .card-group {
   justify-content: center;
@@ -166,9 +227,7 @@ h3{
 .card-text {
   color: white;
 }
-.card-title{
-  color: white;
-}
+
 
 */
 
