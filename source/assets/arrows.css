@@ -1,7 +1,7 @@
 .scroll-down {
   position: absolute;
   left: 50%;
-  bottom: 50px;
+  bottom: 60px;
   display: block;
   text-align: center;
   font-size: 20px;
@@ -17,7 +17,7 @@
 .scroll-down-1 {
   position: absolute;
   left: 50%;
-  bottom: -755px;
+  bottom: -765px;
   display: block;
   text-align: center;
   font-size: 20px;
@@ -33,7 +33,7 @@
 .scroll-down-2 {
   position: absolute;
   left: 50%;
-  bottom: -1580px;
+  bottom: -1590px;
   display: block;
   text-align: center;
   font-size: 20px;
@@ -48,7 +48,7 @@
 .scroll-down-3 {
   position: absolute;
   left: 50%;
-  bottom: -2360px;
+  bottom: -2370px;
   display: block;
   text-align: center;
   font-size: 20px;
@@ -63,7 +63,7 @@
 .scroll-down-4 {
   position: absolute;
   left: 50%;
-  bottom: -3250px;
+  bottom: -3260px;
   display: block;
   text-align: center;
   font-size: 20px;
